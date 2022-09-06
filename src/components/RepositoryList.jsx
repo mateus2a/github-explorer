@@ -1,24 +1,13 @@
+import { RepositoryItem } from './RepositoryItem';
 export function RepositoryList() {
   return (
     <section className="repository-list">
       <h1>Repository List</h1>
 
       <ul>
-        <li>
-          <strong>unform</strong>
-          <p>Forms in react</p>
-          <a href="#">Access Repository</a>
-        </li>
-        <li>
-          <strong>unform</strong>
-          <p>Forms in react</p>
-          <a href="#">Access Repository</a>
-        </li>
-        <li>
-          <strong>unform</strong>
-          <p>Forms in react</p>
-          <a href="#">Access Repository</a>
-        </li>
+        <RepositoryItem repository="unform2" />
+        <RepositoryItem />
+        <RepositoryItem />
       </ul>
     </section>
   );
