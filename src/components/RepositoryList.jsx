@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { RepositoryItem } from './RepositoryItem';
 
 import '../styles/repositories.scss';
-// https://api.github.com/users/mateus2a/repos
+
 export function RepositoryList() {
   const [repositories, setRepositories] = useState([]);
 
@@ -17,9 +17,11 @@ export function RepositoryList() {
       <h1>Repository List</h1>
 
       <ul>
-        <RepositoryItem repository="unform2" />
-        <RepositoryItem />
-        <RepositoryItem />
+        {repositories.map((repository) => {
+          return (
+            <RepositoryItem key={repository.name} repository={repository} />
+          );
+        })}
       </ul>
     </section>
   );
