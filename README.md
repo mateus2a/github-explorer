@@ -42,3 +42,9 @@ The following tools were used in the construction of the project:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [React](https://pt-br.reactjs.org/docs/getting-started.html)
+
+## ✒️ Authors
+
+Here are all the contributors to the project.
+
+* **Mateus Alencar** - *Initial Work, Documentation* - [mateus2a](https://github.com/mateus2a)
