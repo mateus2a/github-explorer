@@ -22,10 +22,10 @@ A series of step-by-step examples that tell you what you must do to get a develo
 
 ```
 # Clone this repository
-$ git clone https://github.com/mateus2a/Bin2Dec.git bin2dec
+$ git clone https://github.com/mateus2a/github-explorer.git
   
 # Access the project folder in the terminal/cmd
-$ cd bin2dec
+$ cd github-explorer
 
 # Install dependencies
 $ npm install
