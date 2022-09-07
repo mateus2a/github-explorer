@@ -39,6 +39,6 @@ $ npm start
 
 The following tools were used in the construction of the project:
 
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
 - [React](https://pt-br.reactjs.org/docs/getting-started.html)
